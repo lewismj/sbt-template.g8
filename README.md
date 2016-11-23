@@ -1,7 +1,5 @@
 # Scala sbt template (Multi-Module with App)
 
-Curently under development...
-
 A [giter8][1] template for [Scala][2] projects using [sbt][3].
 This template sets up a multi-module project. It also includes an application that depends on the modules. 
 An assembly plugin is referenced for building uber-jar of the application.

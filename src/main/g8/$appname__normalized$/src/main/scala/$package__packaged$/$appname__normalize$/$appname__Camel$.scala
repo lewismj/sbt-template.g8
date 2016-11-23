@@ -5,9 +5,5 @@ import $package$.$module2;format="word"$
 
 
 object $appname;format="Camel"$ extends App {
-
-   def main(args: Array[String]) {
       println("Hello, world!")
-    }
-
 }

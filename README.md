@@ -8,6 +8,16 @@ An assembly plugin is referenced for building uber-jar of the application.
 
 ```sbt new lewismj/sbt-template.g8```
 
+You can then run:
+
+~~~
+sbt compile
+sbt publish-local
+sbt assembly
+~~~
+
+The assembly command will put the uber-jar into a top level 'bin' directory.
+
 ## Example Layout
 
 ~~~

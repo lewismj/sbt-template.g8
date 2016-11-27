@@ -1,6 +1,6 @@
 # Scala sbt template (Multi-Module with App)
 
-A [giter8][1] template for [Scala][2] projects using [sbt][3].
+A [giter8][1] template for Scala projects using sbt. 
 This template sets up a multi-module project. It also includes an application that depends on the modules. 
 An assembly plugin is referenced for building uber-jar of the application.
 
@@ -21,8 +21,6 @@ The assembly command will put the uber-jar into a top level 'bin' directory.
 ## Example Layout
 
 ~~~
-+-- LICENSE
-+-- README.md
 +-- build.sbt
 +-- module1
 |   +-- src
@@ -41,7 +39,7 @@ The assembly command will put the uber-jar into a top level 'bin' directory.
 |           +-- example
 |             +-- myproject
 |               +-- module1
-|                 +-- Trait1.scala
+|                 +-- Trait2.scala
 +-- app
 |   +-- src
 |     +-- main
@@ -59,6 +57,3 @@ The assembly command will put the uber-jar into a top level 'bin' directory.
 ~~~
 
 [1]: https://github.com/n8han/giter8
-[2]: http://www.scala-lang.org/
-[3]: http://github.com/harrah/xsbt/
-

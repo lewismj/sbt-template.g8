@@ -1,7 +1,7 @@
 import Dependencies._
 import Settings._
 
-lazy val $module1$ = (project in file("module1")).
+lazy val $module1$ = (project in file("$module1$")).
   settings(Settings.settings: _*).
   settings(Settings.$module1$Settings: _*).
   settings(libraryDependencies ++= $module1$Dependencies)
